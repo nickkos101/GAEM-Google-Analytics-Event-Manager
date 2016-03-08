@@ -12,7 +12,11 @@ License: GPL
 
 
 
-//TODO: ENQUEQUE ASSETS
+//TODO: BUILD INTERFACE FOR DEFINING EVENTS
+//TODO: PULL IN INTERFACE DATA TO COMPILE SCRIPT
+//TODO: BIND API
+
+include plugins_url().'acf/acf-settings.php';
 
 function GAEM_get_events() {
 
